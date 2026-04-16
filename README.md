@@ -1,2 +1,3 @@
-# journal
-keeping a journal
+# Keeping a journal
+
+1. Memory aid
