@@ -1,4 +1,4 @@
-# 程式設計分類題庫
+# 程式設計題庫整理
 
 1. 按照中正大學資工系一年級王銘宏老師114學年度程式設計課程進度分類
 2. 代碼詳見 [GITHUB](https://github.com/joelccting/qbank.git)
