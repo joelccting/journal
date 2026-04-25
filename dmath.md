@@ -1,5 +1,46 @@
 # 離散數學
 
+## Ch02 Sets
+
+1. Intro
+   
+   1. Define **a set**. What does a set contain? How to define **an empty set**? How to express a set with items with a trend. What does a **set builder** do? Give an example of binary strings of length $n$. Explain **Russell's paradox** and **barber paradox**.
+   
+   2. Define Venn Diagram
+   
+   3. Define **subset**, **superset**. 
+   
+   4. How to denote the **size** of a set?
+   
+   5. What is **power set**?
+   
+   6. **<mark>錯題</mark>**：1c
+
+2. set operations
+   
+   1. intro: define **union, intersection, complement, difference, symmetric difference** of A and B
+   
+   2. set identities: **2 apples, 3 cakes, 3 donuts, 2 ice cream**
+   
+   3. generalized union and intersection
+   
+   4. computer representation
+   
+   5. multisets
+   
+   6. **<mark>錯題</mark>**：
+
+---
+
+Ans:
+
+1. A set is an **unordered** collection of **distinct** objects. A set contains **elements/members/items**. A set with no objects. ${}$ $\{\}$ or $\phi$. With ellipses $...$. To specify the items in a set by a rule to state the properties of items
+   $\{x|x \in \{0, 1\}^* \land length(w)=n\}$.
+
+2. 1. x
+   
+   2. 
+
 ## Ch06
 
 1. Explain what is __Pigeonhole Principle__.

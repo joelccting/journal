@@ -1,5 +1,7 @@
 # Midterm Prep
 
+## 錯題本
+
 1(b) $b_n=(-1)^n(\frac{n^2+cos(2n+3)}{n-2})^{\frac{1}{n}}$
 
 $\sum (-1)^n sin(\frac{2n+1}{n^3+5})$

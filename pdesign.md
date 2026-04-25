@@ -3,6 +3,54 @@
 1. 按照中正大學資工系一年級王銘宏老師114學年度程式設計課程進度分類
 2. 代碼詳見 [GITHUB](https://github.com/joelccting/qbank.git)
 
+## 目標
+
+1. 建立自己的庫函數
+
+2. 精簡化庫函數
+
+3. 背起來
+
+---
+
+**04/24 FRI**
+
+1. On 王老師的ppt，用bottom, up的singly linked list表示。覺得name取得好，寫起來很清楚。
+
+---
+
+**04/23 THU**
+
+1. ZeroJudge a813.  城市觀測最後WA在long long sum，印成%d。
+
+2. ZeroJudge a148. You Cannot Pass?! 很簡單的題目，就是忘了EOF。注意：如果除法會失去精準度，該考慮使用乘法。
+
+```c
+while (scanf("%d", &n) != EOF)
+```
+
+3. ZeroJudge a215. 明明愛數數。沒注意到 n, m 可能為負數，看了論壇才知道，以後要多加小心啊。
+
+4. ZeroJudge a216. AC
+
+5. ZeroJudge a224. 兩次才AC。題目沒看清楚就動手，寫完才發現不是題目要問的。
+
+6. ZeroJudge a225. AC
+
+---
+
+**04/21 TUE**
+
+1. 實習題system route：本題數據不多，不需要用pointers做stack。開始的時候，我用pointers做doubly linked list，浪費太多時間。應該先評估資料量，決定要用哪一種資料型態再下手。
+
+2. 實習題Tako factory：有了上一題的經驗，數據不大queue就直接用array做，而且是線性array，只要資料筆數不多，enque/deque還做得來。結束條件有點
+
+---
+
+**04/20 MON** 
+
+ZeroJudge a813.  城市觀測，這一題很像04/14實習課的signal checkpoint題。解法在維護一個monotone stack。不同的是signal checkpoint找的是左邊比自身大的個數，而「城市觀測」則用到左右兩邊。
+
 ## 2026/05/19 講義 CH18 Graph
 
 ## 2026/05/12 講義 CH17 Tree
@@ -10,6 +58,12 @@
 ## 2026/04/28 講義 CH16 Sorting
 
 1. ZeroJudge a104. 排序：可以練習使用stdlib.h/qsort，也可以用自幹的排序
+
+## 2026/04/14 實習課
+
+1. ZeroJudge a813.  城市觀測
+
+TODO: "bad hair day", "patrol"
 
 ## 2026/04/14 講義 CH15 Stack and Queue
 
@@ -54,8 +108,8 @@
 
 6. ZeroJudge c123 / UVa 514 - Rails
    不符合 $1,2,3,...,n$ 順序的測資，要先push起來，再pop出來驗證。小心題目會重複測試，所以該歸零的要歸零。
-   
-   ## 2026/03/31 實習課
+
+## 2026/03/31 實習課
 
 7. Jinshi
 
