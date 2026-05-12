@@ -1,6 +1,52 @@
-# Midterm Prep
+# Ch11
 
-## 錯題本
+## 錯題
+
+- Ex 11.2: 13, 23, 25
+- Ex 11.3: 7c, 7d, 53, 55, 57, 63
+- Ex 11.4: 25, 26, 28
+
+## 11.4 graphing
+
+1. symmetry
+
+2. slope
+
+3. - Line: $\theta=\phi$, $r=a \csc\theta$, $r=b \sec \theta$
+   - circle: $r=a \sin \theta + b \cos \theta$
+   - Limacons蚶ㄏㄢ線: $r=b+a \sin \theta$ or $r=b+a \cos \theta$
+   - Lemniscate連紐線: $r^2=a \sin 2 \theta$ or $r^2=a \cos 2 \theta$
+   - Rhodonea curve玫瑰線: $r=a \cos n \theta$ or $r=a \sin n \theta$
+
+## 11.3 polar coordinates
+
+1. definition
+
+2. polar equations and graphs
+
+3. relating polar and cartesian coordinates
+
+## 11.2
+
+1. tangents and areas
+
+2. length of a parametrically defined curve
+
+3. length of a curve $y=f(x)$
+
+4. [x] arc length differential
+
+5. [x] area of surfaces of revolution
+
+## 11.1
+
+1. parametric equations
+
+2. cycloid
+
+3. [No teach] Brachistochrones and Tautochrones
+
+# Midterm Prep
 
 1(b) $b_n=(-1)^n(\frac{n^2+cos(2n+3)}{n-2})^{\frac{1}{n}}$
 

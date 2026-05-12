@@ -1,8 +1,162 @@
 # JOURNALS
 
-## 04/25/SAT
+## SAT
 
-## TODO
+---
+
+## FRI
+
+---
+
+## THU
+
+---
+
+## WED
+
+---
+
+## TUE_0428
+
+### Prepare for PD midterm
+
+Quiz0331 Coloring is an example of Greedy. 
+
+Quiz0414_erasure_value an example of sliding window.
+
+---
+
+## MON_0427
+
+### 社服
+
+Teach how to use google spreadsheet for statistics.
+
+copy, and select range to paste: click, and then shift+click
+
+Fixed without auto during \$B2 or B\$2 
+
+=SUM(C:C)
+
+=IF(F2="參賽選手", AA2,G2)
+
+AGE==IF(G2="參賽選手",115-MID(AE2,3,LEN(AE2)-3),I2)
+
+OPTIONS=if(if(L2="參賽選手",
+
+isnumber(find("我周遭的親友都不吸菸",\$AN2)),
+
+isnumber(find("我周遭的親友都不吸菸",\$Q2)
+
+))),1,0)
+
+uploaded
+
+### 微
+
+11.4 graph
+
+1. Draw the range of the function from domain $[0,2\pi]$
+
+2. Draw lines spliting angles on the Cartesian coordinate
+
+3. Fill in each section
+
+4. 注意事項：圖要標示分段、圖標示參數由小到大的方向
+
+### 程設期中考
+
+sliding window quiz
+
+memset(p, 0, **SZ \* sizeof(int)**);
+
+### 
+
+---
+
+## SUN_0426
+
+[Competitive Programming by Steven Halim and Felix Halim(Book overview) - YouTube](https://youtu.be/IHhNIrEdxTA?si=ScYPRYyrNxOiZNn1)
+
+（1）文章結構（2）文獻引用（3）參考文獻（4）圖表製作（5）數字與統
+計符號，以及（6）其他常用格式等六大項。
+
+ZeroJudge b397. 找出最長共同子序列
+
+穩定性 平均時間複雜度/最差時間複雜度/額外空間複雜度
+
+bubble sort. 4,1,5,3,2
+
+selection sort
+
+insersion sort
+
+merge sort
+
+quick sort
+
+counting sort
+
+- Ex 11.2: 13, 23, 25
+- Ex 11.3: 7c, 7d, 53, 55, 57, 63
+
+11.4 graphing
+
+1. symmetry
+
+2. slope
+
+11.3 polar coordinates
+
+1. definition
+
+2. polar equations and graphs
+
+3. relating polar and cartesian coordinates
+
+11.2
+
+1. tangents and areas
+
+2. length of a parametrically defined curve
+
+3. length of a curve y=f(x)
+
+4. [x] arc length differential
+
+5. [x] area of surfaces of revolution
+
+11.1
+
+1. parametric equations
+
+2. cycloid
+
+3. [x] Brachistochrones and Tautochrones
+
+# TODO
+
+APCS使用C++
+
+ch05 [b966. 3. 線段覆蓋長度 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=b966)
+
+ch04 [c296. APCS-2016-1029-3定時K彈 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c296)
+
+ch06 [c295. APCS-2016-1029-2最大和 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c295)
+
+[c297. APCS-2016-1029-4棒球遊戲 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c297)
+
+[b964. 1. 成績指標 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=b964)
+
+[c575. APCS 2017-0304-4基地台 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c575)
+
+ch07 [c471. apcs 物品堆疊 (Stacking) - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c471)
+
+[b967. 4. 血緣關係 - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=b967)
+
+[c463. apcs 樹狀圖分析 (Tree Analyses) - 高中生程式解題系統](https://zerojudge.tw/ShowProblem?problemid=c463)
+
+CPE book
 
 Vito's family (CPE10406, UVA10041)
 

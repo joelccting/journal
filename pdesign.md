@@ -3,15 +3,74 @@
 1. 按照中正大學資工系一年級王銘宏老師114學年度程式設計課程進度分類
 2. 代碼詳見 [GITHUB](https://github.com/joelccting/qbank.git)
 
-## 目標
+# 一、按解題情況分類
 
-1. 建立自己的庫函數
+## A1. I have solved this type before **and** I am sure that I can re-solve it again (and fast)
 
-2. 精簡化庫函數
+- w07 Rainy Day. **Prefix sum**
 
-3. 背起來
+- w08 System Route. **Stack**
+
+- q0310 Alphabet Elimination Game **Stack**
+
+- q0310 The echo cleaner **Stack**
+
+- q0310 NIN **if-else** 題目讀清楚，才能防備測資
+
+- q0310 Helping Xi **if-else**
+
+- q0331 The Grand Hero Arena **D&C**
+
+- q0331 Score **Sort**
+
+- q0414 Travel Cost **Sort**
+
+- q0414 Counting Zero **Numbers**
 
 ---
+
+## A2. I have solved this type before **and** I am sure that I can re-solve it again (but slow)
+
+- w08 Tako Factory. **Queue** 
+
+---
+
+## B. I have seen this type before **but** that time I know that I cannot solve it yet
+
+- w07 Singal Checkpoint (nearest smaller value). **Monotonic stack** 
+- q0331 Coloring **Greedy**
+- q0331 NIN Again **Backtracking**
+- q0414 Secret Message **Stack**
+- q0414 Maximum Erasure Value **Sliding window**
+- w03 Culling Game **Backtracking**
+
+---
+
+## C. I have not seen this type before
+
+- w10 Binary Flip K
+
+- w10 The Cost of Variation
+
+---
+
+# 二、按演算法分類
+
+## Sliding Window
+
+## Divide and Conquer
+
+## Greedy Algorithm
+
+## Brute Force
+
+1. ZeroJudge a121. 質數又來囉
+
+## Searching
+
+# 先前的整理
+
+## 質數
 
 **04/24 FRI**
 
@@ -67,6 +126,14 @@ TODO: "bad hair day", "patrol"
 
 ## 2026/04/14 講義 CH15 Stack and Queue
 
+### Handouts
+
+1. Infix to postfix. Try this: $a+b*c$: stack only operators
+
+2. postfix to infix. Continue 1: stack operands; pop at every operator
+
+### Exercises
+
 1. ZeroJudge b923. stack 堆疊的模板題
    基本題
 
@@ -109,23 +176,21 @@ TODO: "bad hair day", "patrol"
 6. ZeroJudge c123 / UVa 514 - Rails
    不符合 $1,2,3,...,n$ 順序的測資，要先push起來，再pop出來驗證。小心題目會重複測試，所以該歸零的要歸零。
 
+7. ZeroJudge c139. UVa 291 - The House Of Santa Claus. Backtracking也是stack的一種，它利用recursion做到stack，是隱形的stack。
+
 ## 2026/03/31 實習課
 
-7. Jinshi
+1. Jinshi: using brute force will lead to $O(n^2)$. Since $n=10^3$ in this question, it is OK.
 
----
+2. ## 2026/03/31 小考
 
-1. Brute force.
-   
-   ## 2026/03/31 小考
+3. Score
 
-2. Score
+4. Coloring
 
-3. Coloring
+5. NIN again
 
-4. NIN again
-
-5. Arena
+6. Arena
 
 ---
 
@@ -141,7 +206,10 @@ TODO: "bad hair day", "patrol"
 ## 2026/03/24 實習課
 
 1. Marshalling Yard
-2. **Escape from Tamon’s World**
+   a. complexity: $n*q=(200000)^2$, Not just $200000$
+2. **Escape from Tamon’s World**: 
+   a. an error happened `c[s.x][s.y] == 'w';`
+   b. return and stopped other trials for directions.
 
 ---
 
@@ -160,6 +228,7 @@ The first one can be solved by linked list with array.
    ```
 
 2. Fibonacci Bit
+   注意費氏數列容易發生**資料溢位**
 
 ---
 
@@ -218,17 +287,7 @@ __Backtracking__ 透過 trial and error 來找答案
 3. ZeroJudge c139. UVa 291 - The House Of Santa Claus
    看書，完全不知道如何下手，查AI才知。圖不大，用adjacent matrix即可；recursive
 
-## Divide and Conquer
-
-## Greedy Algorithm
-
-## Brute Force
-
-1. ZeroJudge a121. 質數又來囉
-
-## Searching
-
-## 質數
+## 
 
 ## TODO
 
@@ -258,16 +317,24 @@ __Backtracking__ 透過 trial and error 來找答案
 2. ZeroJudge a240. 第一題：$1/17$ 小數第 n 位 
    Start with a $remainder$ of $1$. Multiply the $remainder$ by $10$. The digit is $(remainder * 10) / 17$. The new $remainder$ is $(remainder * 10) \mod 17$. Repeat this $n$ times.
 
-## 參考資料
+# 參考資料
 
-1. 林盈達. 大學程式能力檢定: CPE祕笈. 二版. 臺北市: 美商麥格羅希爾國際股份有限公司臺灣分公司, 2021. Print.
-2. Horowitz, Ellis, Sartaj Sahni, and Susan Anderson-Freed. Fundamentals of Data Structures in C. 2nd ed. Summit, NJ: Silicon Press, 2008. Print.
-3. 黃建庭. C++程式設計解題入門. 初版. 臺北市: 松崗資產管理, 2016. Print. [黃建庭的教學網站](https://sites.google.com/view/zsgititit/)
-4. 黃建庭. 圖解資料結構 : 使用C++. 初版. 新北市: 台科大圖書, 2022. Print.
-5. 林奈爾, Reuven M Lerner, and 施威銘研究室. Python刷題鍛鍊班: 老手都刷過的50道程式題,求職面試最給力. 初版. 臺北市: 旗標發行, 2021. Print.
-6. 岡田佑一, 鄧瑋敦, and 博碩文化 編譯. Short Coding寫出簡捷好程式 : 短碼達人的心得技法. 初版. 臺北縣汐止市: 博碩文化出版, 2008. Print.
-7. 冼鏡光. 名題精選百則 技巧篇. 第三版. 臺北市: 儒林圖書公司, 2010. Print.
-8. 冼鏡光. 名題精選百則 技巧篇使用C語言. 第二版. 臺北市: 儒林圖書, 2002. Print.
-9. 冼鏡光. 名題精選百則. 技巧篇: 使用C語言. 三版. 臺北市: 格致出版, 1996. Print.
-10. 增井敏克., and 許郁文. 培養刷題基本功: Python程式設計師的頭腦體操. 初版. 臺北市: 碁峰資訊, 2021. Print.
-11. 付東來. 刷題實戰筆記: 演算法工程師求職加分的祕笈. 初版. 新北市: 博碩文化, 2021. Print.
+1. Halim, Steven, Felix Halim, and Suhendry Effendy. *Competitive Programming 4 : The Lower Bound of Programming Contests in the 2020s.* [Fourth edition]. Singapore, Singapore: Lulu.com, 2020. Print. 
+   1. [book website](https://cpbook.net/) 
+   2. [World of Seven - Steven Halim's Personal Website](https://www.comp.nus.edu.sg/~stevenha/)
+2. 林盈達. 大學程式能力檢定: CPE祕笈. 二版. 臺北市: 美商麥格羅希爾國際股份有限公司臺灣分公司, 2021. Print.
+3. Lee, R. C. T et al. *Introduction to the Design and Analysis of Algorithms.* Taipei, Taiwan: Unalis, 1999. Print.
+4. 顏重功, and 蔡英德. *演算法精鑰 = Essentials of algorithms*. 初版. 新北市: 高立圖書, 2021. Print.
+5. 蔡宗翰. *演算法 : 使用 C++虛擬碼*. 初版. 臺北市: 碁峰資訊, 2011. Print. 
+   1. 聯合大學陳士杰老師課程[演算法講義](http://jacy.nuu.edu.tw/sjchen/Algorithms_final.html)用書
+6. Roughgarden, Tim. *Algorithms Illuminated*. First omnibus edition. New York, NY: Soundlikeyourself Publishing, 2023. Print.
+7. Horowitz, Ellis, Sartaj Sahni, and Susan Anderson-Freed. Fundamentals of Data Structures in C. 2nd ed. Summit, NJ: Silicon Press, 2008. Print.
+8. 黃建庭. C++程式設計解題入門. 初版. 臺北市: 松崗資產管理, 2016. Print. [黃建庭的教學網站](https://sites.google.com/view/zsgititit/)
+9. 黃建庭. 圖解資料結構 : 使用C++. 初版. 新北市: 台科大圖書, 2022. Print.
+10. 林奈爾, Reuven M Lerner, and 施威銘研究室. Python刷題鍛鍊班: 老手都刷過的50道程式題,求職面試最給力. 初版. 臺北市: 旗標發行, 2021. Print.
+11. 岡田佑一, 鄧瑋敦, and 博碩文化 編譯. Short Coding寫出簡捷好程式 : 短碼達人的心得技法. 初版. 臺北縣汐止市: 博碩文化出版, 2008. Print.
+12. 冼鏡光. 名題精選百則 技巧篇. 第三版. 臺北市: 儒林圖書公司, 2010. Print.
+13. 冼鏡光. 名題精選百則 技巧篇使用C語言. 第二版. 臺北市: 儒林圖書, 2002. Print.
+14. 冼鏡光. 名題精選百則. 技巧篇: 使用C語言. 三版. 臺北市: 格致出版, 1996. Print.
+15. 增井敏克., and 許郁文. 培養刷題基本功: Python程式設計師的頭腦體操. 初版. 臺北市: 碁峰資訊, 2021. Print.
+16. 付東來. 刷題實戰筆記: 演算法工程師求職加分的祕笈. 初版. 新北市: 博碩文化, 2021. Print.

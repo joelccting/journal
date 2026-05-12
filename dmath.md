@@ -13,8 +13,6 @@
    4. How to denote the **size** of a set?
    
    5. What is **power set**?
-   
-   6. **<mark>錯題</mark>**：1c
 
 2. set operations
    
@@ -27,8 +25,15 @@
    4. computer representation
    
    5. multisets
+
+3. - Define the *cardinality* of $S$.
+   - Define what is *the same cardinality*.
+   - Define what is *countable set*. What kind of sets do $\aleph_0$ describe?
+   - How to prove *one-to-one correspondence*? Example 1 Show that the set of odd positive integers is a countable set.
+
+4. 錯題
    
-   6. **<mark>錯題</mark>**：
+   1. ex 2.1: 1c
 
 ---
 
@@ -61,6 +66,12 @@ Ans:
    ## Ch03
 
 ## Ch05
+
+### 5.1 Math induction
+
+### 5.2 Strong induction
+
+1. **Ex 9** Use strong induction to prove that $\sqrt 2$ is irrational.
 
 ## Ch01
 

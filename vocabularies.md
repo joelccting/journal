@@ -16,6 +16,10 @@
 
 ---
 
+1. The local museum’s new exhibit **juxtaposes** modern art with classical art.
+
+---
+
 04/24
 
 1. Despite weekly hikes on the same trail, she never ceases to be amazed by the **arboreal** beauty.
